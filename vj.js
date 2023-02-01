@@ -9,32 +9,7 @@ function getQuote(){
         .then(data=>data.content)
         //finally returns the random quote 
 }
-// input.addEventListener("input",()=>{
-//     console.log("updated");
-//     const arrayQuote =ques.querySelectorAll('span');
-//     const arrayValue=input.value.split('');
-//     arrayQuote.forEach((characterSpan,index)=>{
-//         const character= arrayValue[index];
-//         if(character==null)
-//         {
-//             characterSpan.classList.remove('correct');
-//             characterSpan.classList.remove('incorrect');
-//         }
-//         else if (character===characterSpan.innerText){
-//             characterSpan.classList.add('correct');
-//             console.log('correct');
-//             characterSpan.classList.add('incorrect');
-//         }
-//         else{
-//             characterSpan.classList.add('incorrect');
-//             console.log('incorrect');
-//             characterSpan.classList.add('correct');
-//         }
-
-
-//     })
-
-// })        
+  
 
 
 async function renderNewQuote(){  
